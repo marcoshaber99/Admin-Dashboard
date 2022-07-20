@@ -1,100 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Admin Dashboard</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
-            href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap"
             rel="stylesheet">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-
         <!-- App Drawer -->
         <div class="drawer">
             <div class="dashboard menuItem">
-                <img src="/images/view-dashboard.svg" alt="Dashboard">
+                <img src="/images/view-dashboard.svg" alt="" />
                 <h1>Dashboard</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/home.svg" alt="Home Image">
+                <img src="/images/home.svg" alt="" />
                 <h1>Home</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/card-account-details.svg" alt="card account
-                    details">
+                <img src="/images/card-account-details.svg" alt="" />
                 <h1>Profile</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/message-bulleted.svg" alt="Messages">
+                <img src="/images/message-bulleted.svg" alt="" />
                 <h1>Messages</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/clock-outline.svg" alt="History">
+                <img src="/images/clock-outline.svg" alt="" />
                 <h1>History</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/note-multiple.svg" alt="Tasks">
+                <img src="/images/note-multiple.svg" alt="" />
                 <h1>Tasks</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/account-group.svg" alt="Communities">
+                <img src="/images/account-group.svg" alt="" />
                 <h1>Communities</h1>
             </div>
+            <!-- Need extra spacing, so nth child -->
             <div class="menuItem">
-                <img src="/images/cog-outline.svg" alt="settings-icon">
+                <img src="/images/cog-outline.svg" alt="" />
                 <h1>Settings</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/message-question.svg" alt="Support">
+                <img src="/images/message-question.svg" alt="" />
                 <h1>Support</h1>
             </div>
             <div class="menuItem">
-                <img src="/images/shield-check.svg" alt="shield-icon">
+                <img src="/images/shield-check.svg" alt="" />
                 <h1>Privacy</h1>
             </div>
         </div>
 
-        <!-- Nav Bar  -->
+        <!-- Navbar -->
         <div class="navbar">
             <!-- Top Section -->
             <div class="topNav">
-                <!-- search icon and search bar -->
+                <!-- Search icon and search bar -->
                 <div class="search">
                     <div class="menuItem">
-                        <img src="/images/magnify.svg" alt="magnify icon">
+                        <img src="/images/magnify.svg" alt="" />
                     </div>
-                    <input type="text" name="search" autocomplete="off">
+                    <input type="text" name="search" autocomplete="off" />
                 </div>
                 <div class="account">
-                    <div class="menuItem">
-                        <img src="/images/bell-ring-outline.svg"
-                            alt="bell-ring-outline">
+                    <div class="menuIcon">
+                        <img src="/images/bell-ring-outline.svg" alt="" />
                     </div>
-                    <!-- github avatar -->
+                    <!-- Avatar from Github -->
                     <div class="gh-avatar"></div>
-                    <!-- Username -->
-                    <p class="name">Marco's Dashboard</p>
+                    <!-- Our username -->
+                    <p class="name">Marco Haber</p>
                 </div>
             </div>
 
-            <!-- bottom section -->
+            <!-- Bottom Section -->
             <div class="bottom">
-                <!-- profile details -->
+                <!-- Profile details -->
                 <div class="profile">
                     <div class="gh-avatar"></div>
                     <div class="profile-name">
-                        <p class="greeting">Hi there, </p>
-                        <p class="name">Marco <span class="username">(@marcoshaber)</span></p>
+                        <p class="greeting">Hi there,</p>
+                        <p class="name">Marco <span class="username">(@marcoshaber99)</span></p>
                     </div>
                 </div>
-                <!-- Buttons -->
+                <!-- Button section -->
                 <div class="buttons">
                     <button class="btn">New</button>
                     <button class="btn">Upload</button>
@@ -102,180 +99,191 @@
                 </div>
             </div>
         </div>
-
-        <!-- Main Content  -->
+        <!-- Main Content -->
         <main class="content">
             <div class="projects">
                 <h3>Your Projects</h3>
 
-                <!-- Projects section -->
+                <!-- Section for all project cards -->
                 <div class="cards">
-                    <!-- we need 6 cards -->
+                    <!-- Each individual card, we need 6 cards -->
                     <div class="card">
                         <h5 class="card-title">Super Cool Project</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eos fugiat ab alias
-                            aliquid, enim qui.</p>
-                        <div class="icons">
-                            <img src="/images/star-plus-outline.svg"
-                                alt="star-icon">
-                            <img src="/images/eye-plus-outline.svg"
-                                alt="eye-icon">
-                            <img src="/images/source-branch.svg"
-                                alt="source-branch-icon">
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugit ea
+                            doloribus debitis reprehenderit? Sapiente, qui
+                            quaerat enim non.
+                        </p>
+                        <div class="images">
+                            <img src="/images/star-plus-outline.svg" alt="" />
+                            <img src="/images/eye-plus-outline.svg" alt="" />
+                            <img src="/images/source-branch.svg" alt="" />
                         </div>
                     </div>
-                    <!-- we need 6 cards -->
+                    <!-- Each individual card, we need 6 cards -->
                     <div class="card">
                         <h5 class="card-title">Less Cool Project</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eos fugiat ab alias
-                            aliquid, enim qui.</p>
-                        <div class="icons">
-                            <img src="/images/star-plus-outline.svg"
-                                alt="star-icon">
-                            <img src="/images/eye-plus-outline.svg"
-                                alt="eye-icon">
-                            <img src="/images/source-branch.svg"
-                                alt="source-branch-icon">
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Velit
+                            officia nesciunt harum distinctio quia nisi ipsum
+                            reiciendis
+                            aspernatur, sunt nam. Doloremque aliquam ut culpa
+                            harum non rem
+                            in, cumque vitae!
+                        </p>
+                        <div class="images">
+                            <img src="/images/star-plus-outline.svg" alt="" />
+                            <img src="/images/eye-plus-outline.svg" alt="" />
+                            <img src="/images/source-branch.svg" alt="" />
                         </div>
                     </div>
-                    <!-- we need 6 cards -->
+                    <!-- Each individual card, we need 6 cards -->
                     <div class="card">
                         <h5 class="card-title">Impossible App</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eos fugiat ab alias
-                            aliquid, enim qui.</p>
-                        <div class="icons">
-                            <img src="/images/star-plus-outline.svg"
-                                alt="star-icon">
-                            <img src="/images/eye-plus-outline.svg"
-                                alt="eye-icon">
-                            <img src="/images/source-branch.svg"
-                                alt="source-branch-icon">
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione,
+                            dicta. Pariatur libero a molestiae quod culpa
+                            deserunt quo quam
+                            eos necessitatibus aliquid, nam fuga sed itaque
+                            magnam delectus ex
+                            animi?
+                        </p>
+                        <div class="images">
+                            <img src="/images/star-plus-outline.svg" alt="" />
+                            <img src="/images/eye-plus-outline.svg" alt="" />
+                            <img src="/images/source-branch.svg" alt="" />
                         </div>
                     </div>
-                    <!-- we need 6 cards -->
+                    <!-- Each individual card, we need 6 cards -->
                     <div class="card">
                         <h5 class="card-title">Easy Peasy App</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eos fugiat ab alias
-                            aliquid, enim qui.</p>
-                        <div class="icons">
-                            <img src="/images/star-plus-outline.svg"
-                                alt="star-icon">
-                            <img src="/images/eye-plus-outline.svg"
-                                alt="eye-icon">
-                            <img src="/images/source-branch.svg"
-                                alt="source-branch-icon">
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugit ea
+                            doloribus debitis reprehenderit? Sapiente, qui
+                            quaerat enim non.
+                        </p>
+                        <div class="images">
+                            <img src="/images/star-plus-outline.svg" alt="" />
+                            <img src="/images/eye-plus-outline.svg" alt="" />
+                            <img src="/images/source-branch.svg" alt="" />
                         </div>
                     </div>
-                    <!-- we need 6 cards -->
+                    <!-- Each individual card, we need 6 cards -->
                     <div class="card">
                         <h5 class="card-title">Ad Blocker</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eos fugiat ab alias
-                            aliquid, enim qui.</p>
-                        <div class="icons">
-                            <img src="/images/star-plus-outline.svg"
-                                alt="star-icon">
-                            <img src="/images/eye-plus-outline.svg"
-                                alt="eye-icon">
-                            <img src="/images/source-branch.svg"
-                                alt="source-branch-icon">
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugit ea
+                            doloribus debitis reprehenderit? Sapiente, qui
+                            quaerat enim non.
+                        </p>
+                        <div class="images">
+                            <img src="/images/star-plus-outline.svg" alt="" />
+                            <img src="/images/eye-plus-outline.svg" alt="" />
+                            <img src="/images/source-branch.svg" alt="" />
                         </div>
                     </div>
-                    <!-- we need 6 cards -->
+                    <!-- Each individual card, we need 6 cards -->
                     <div class="card">
                         <h5 class="card-title">Money Maker</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eos fugiat ab alias
-                            aliquid, enim qui.</p>
-                        <div class="icons">
-                            <img src="/images/star-plus-outline.svg"
-                                alt="star-icon">
-                            <img src="/images/eye-plus-outline.svg"
-                                alt="eye-icon">
-                            <img src="/images/source-branch.svg"
-                                alt="source-branch-icon">
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugit ea
+                            doloribus debitis reprehenderit? Sapiente, qui
+                            quaerat enim non.
+                        </p>
+                        <div class="images">
+                            <img src="/images/star-plus-outline.svg" alt="" />
+                            <img src="/images/eye-plus-outline.svg" alt="" />
+                            <img src="/images/source-branch.svg" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Side content: Announcements & Trending -->
+            <!-- Side content - Announcements and trending-->
 
             <!-- Announcements -->
             <div class="announcements">
                 <ul class="card">
-                    <!-- Each announcement -->
+                    <!-- List of individual announcments -->
                     <li class="announcement">
                         <h5 class="card-title">Site Maintenance</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Officiis unde
-                            voluptates accusamus nostrum. Consequuntur fuga sed
-                            aliquam! Quaerat obcaecati corporis dolorem labore,
-                            tenetur perspiciatis maxime quia totam dolores, vel
-                            facilis?</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In
+                            veritatis commodi, sint dolore ex quidem mollitia
+                            dignissimos
+                            omnis odio aliquam atque repudiandae quo ducimus
+                            rerum accusantium
+                            voluptatem ab suscipit quis.
+                        </p>
                     </li>
                     <li class="announcement">
                         <h5 class="card-title">Community Share Day</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Officiis unde
-                            voluptates accusamus nostrum. Consequuntur fuga sed
-                            aliquam! Quaerat obcaecati corporis dolorem labore,
-                            tenetur perspiciatis maxime quia totam dolores, vel
-                            facilis?</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In
+                            veritatis commodi, sint dolore ex quidem mollitia
+                            dignissimos
+                            omnis odio aliquam atque repudiandae quo ducimus
+                            rerum accusantium
+                            voluptatem ab suscipit quis.
+                        </p>
                     </li>
                     <li class="announcement">
-                        <h5 class="card-title">Updated privacy Policy</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Officiis unde
-                            voluptates accusamus nostrum. Consequuntur fuga sed
-                            aliquam! Quaerat obcaecati corporis dolorem labore,
-                            tenetur perspiciatis maxime quia totam dolores, vel
-                            facilis?</p>
+                        <h5 class="card-title">Updated Privacy Policy</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In
+                            veritatis commodi, sint dolore ex quidem mollitia
+                            dignissimos
+                            omnis odio aliquam atque repudiandae quo ducimus
+                            rerum accusantium
+                            voluptatem ab suscipit quis.
+                        </p>
                     </li>
                 </ul>
             </div>
 
+            <!-- Trending Section -->
             <div class="trending">
                 <h3>Trending</h3>
                 <ul class="card">
-                    <!-- list of trending people -->
+                    <!-- List of all trending people -->
                     <li class="trend trend-1">
                         <div class="gh-avatar2"></div>
                         <div class="account">
                             <p class="username">@tegan</p>
-                            <div class="name card-text">World Peace Builder</div>
+                            <p class="name card-text">World Peace Builder</p>
                         </div>
                     </li>
                     <li class="trend trend-2">
                         <div class="gh-avatar"></div>
                         <div class="account">
-                            <p class="username">@morgen</p>
-                            <div class="name card-text">Super Cool Project</div>
+                            <p class="username">@marcoshaber99</p>
+                            <p class="name card-text">Studying at Frederick</p>
                         </div>
                     </li>
                     <li class="trend trend-3">
-                        <div class="gh-avatar"></div>
+                        <div class="gh-avatar3"></div>
                         <div class="account">
                             <p class="username">@kendall</p>
-                            <div class="name card-text">Life Changing App</div>
+                            <p class="name card-text">Life Changing App</p>
                         </div>
                     </li>
                     <li class="trend trend-4">
                         <div class="gh-avatar4"></div>
                         <div class="account">
                             <p class="username">@alex</p>
-                            <div class="name card-text">No Traffic Maker</div>
+                            <p class="name card-text">No Traffic Maker</p>
                         </div>
                     </li>
                 </ul>
             </div>
-
         </main>
-
-
     </body>
 </html>
